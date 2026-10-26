@@ -1,0 +1,23 @@
+/* styles for CSS types */
+:root {
+    --bgcolor: #ffe4c466;
+}
+body {
+    background-color: var(--bgcolor);
+    font-family: sans-serif;
+}
+
+ul, option, select, code {
+    font-family: monospace;
+}
+ul, section p {
+    line-height: 2;
+    max-width: max-content;
+    padding-inline-end: 1em;
+    padding-block: 1em;
+    border-radius: 0.5em;
+    background-color: var(--bgcolor)
+}
+section {
+    display: none;
+}

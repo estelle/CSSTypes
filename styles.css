@@ -21,3 +21,12 @@ ul, section p {
 section {
     display: none;
 }
+button {
+    background-color: rgb(from var(--bgcolor) r g b / 1);
+    border: 1px solid hsl(from var(--bgcolor) h s calc(l*0.5) / 1);
+    border-radius: 0.5em;
+}
+button:hover, 
+button:focus {
+    background-color: hsl(from var(--bgcolor) h s calc(l*0.9) / 1);
+}

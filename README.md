@@ -1,10 +1,10 @@
 # CSS Types
 
-CSS properties, functions, at-rules, by CSS data type.
+CSS properties, functions, at-rules, and selectors by CSS data type.
 
 ## Goal
 
-Select a data type from the menu to list all the CSS properties, at-rules, and functions that accept that data type as a value.
+Search for a data type to list all the CSS properties, at-rules, functions, and selectors that accept that data type as a value.
 
 ## Authors
 
